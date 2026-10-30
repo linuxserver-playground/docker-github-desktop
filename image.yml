@@ -10,6 +10,9 @@ upstream:
   version:
     type: github_release
     repo: shiftkey/desktop
+    require_assets:
+      - asset: '^GitHubDesktop\-linux\-amd64\-.*\.deb$'
+      - asset: '^GitHubDesktop\-linux\-arm64\-.*\.deb$'
   notes:
     type: github_release
     repo: shiftkey/desktop
