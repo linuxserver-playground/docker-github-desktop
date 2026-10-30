@@ -16,6 +16,9 @@ upstream:
   notes:
     type: github_release
     repo: shiftkey/desktop
+  sponsor:
+  - name: GitHub Sponsors (shiftkey)
+    url: https://github.com/sponsors/shiftkey
 
 release:
   branch: master
